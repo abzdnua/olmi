@@ -8,7 +8,7 @@ class m140408_133949_add_table_property_values extends CDbMigration
             'id'=>'varchar(15) NOT NULL PRIMARY KEY',
 
             'property_id'  =>'varchar(15) NOT NULL',
-            'property_value'=>'varchar(15) NOT NULL',
+            'property_value'=>'varchar(50) NOT NULL',
 
             'create_user_id' =>'int(11)',
             'create_time'    =>'datetime',

@@ -8,7 +8,6 @@ class m140408_143235_add_table_delivery_types extends CDbMigration
             'id'=>'varchar(15) NOT NULL PRIMARY KEY',
 
             'name'  =>'varchar(100) NOT NULL',
-            'recommended_product_id'=>'varchar(15)',
             'is_active'=>'tinyint(1)',
             'overprice'=>'int(5)',
 

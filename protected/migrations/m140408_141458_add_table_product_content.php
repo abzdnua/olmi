@@ -11,7 +11,7 @@ class m140408_141458_add_table_product_content extends CDbMigration
             'product_1С_id'  =>'varchar(15)',
             'article'    =>'varchar(100)',
             'color_id'  =>'varchar(15)',
-            'min_value' =>'int(2)',
+            'min_value' =>'float(3)',
 
             'create_user_id' =>'int(11)',
             'create_time'    =>'datetime',

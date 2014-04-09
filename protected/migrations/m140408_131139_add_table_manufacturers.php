@@ -8,7 +8,7 @@ class m140408_131139_add_table_manufacturers extends CDbMigration
             'id'=>'varchar(15) NOT NULL PRIMARY KEY',
 
             'name'  =>'varchar(100) NOT NULL',
-            'mage_id'   =>'varchar(15)'
+            'image_id'   =>'varchar(15)'
         ));
 	}
 

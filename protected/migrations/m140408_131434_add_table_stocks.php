@@ -8,7 +8,7 @@ class m140408_131434_add_table_stocks extends CDbMigration
             'id'=>'varchar(15) NOT NULL PRIMARY KEY',
 
             'name'  =>'varchar(100) NOT NULL',
-            'back_color'   =>'varchar(15)',
+            'back_color_id'   =>'varchar(15)',
             'description'  =>'text',
             'begin_date'    =>'datetime NOT NULL',
             'end_date'      =>'datetime NOT NULL',

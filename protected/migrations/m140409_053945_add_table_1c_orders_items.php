@@ -13,7 +13,6 @@ class m140409_053945_add_table_1c_orders_items extends CDbMigration
             'count'=>'int(6)',
             'price'=>'float(6)',
             'discount'=>'float(6)',
-            'comment'=>'text'
         ));
 	}
 
